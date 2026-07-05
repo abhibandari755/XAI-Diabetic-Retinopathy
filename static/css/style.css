@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.result-img-container {
+    position: relative;
+    display: inline-block;
+    border: 3px solid #007bff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.label-highlight {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
