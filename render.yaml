@@ -2,5 +2,10 @@ services:
   - type: web
     name: diabetic-retinopathy
     env: python
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
